@@ -1,2 +1,2 @@
 # AndroidPalindromeApp
-This Repository used for the internship test at Suitmedia as Mobile Developer
+This Repository is used for the internship test at Suitmedia as a Mobile Developer

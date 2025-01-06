@@ -11,3 +11,9 @@ This Repository is used for the internship test at Suitmedia as a Mobile Develop
 1. Clone the repository.
 2. Open it in Android Studio.
 3. Sync Gradle and run the application.
+
+## First Screen
+![First Screen](screenshots/screenshot_1.png)
+
+### Second Screen
+![Second Screen](screenshots/screenshot2.png)

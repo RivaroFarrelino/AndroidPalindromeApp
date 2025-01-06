@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="16dp"
+    tools:context=".FirstScreen">
+
+
+    <ImageView
+        android:id="@+id/addUserImageView"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:layout_marginBottom="51dp"
+        android:contentDescription="@string/add_user_icon"
+        android:src="@drawable/icon_photo" />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="15dp"
+        android:autofillHints=""
+        android:fontFamily="@font/poppins_medium"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:background="@drawable/rounded_shape"
+        android:textColor="#C9C8CE"
+        android:textStyle="normal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/inputPalindrome"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="45dp"
+        android:autofillHints=""
+        android:fontFamily="@font/poppins_medium"
+        android:hint="@string/palindrome"
+        android:inputType="text"
+        android:background="@drawable/rounded_shape"
+        android:textColor="#C9C8CE"
+        android:textStyle="normal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:backgroundTint="@color/dark_cyan"
+        android:layout_marginBottom="15dp"
+        android:text="@string/check" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:backgroundTint="@color/dark_cyan"
+        android:layout_marginBottom="15dp"
+        android:text="@string/next" />
+</LinearLayout>

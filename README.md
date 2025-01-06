@@ -14,6 +14,16 @@ This Repository is used for the internship test at Suitmedia as a Mobile Develop
 
 ## First Screen
 ![First Screen](screenshots/screenshot_1.png)
+if palindrome
+![First Screen](screenshots/screenshot_2.png)
+if not palindrome
+![First Screen](screenshots/screenshot_3.png)
 
-### Second Screen
-![Second Screen](screenshots/screenshot2.png)
+## Second Screen
+![Second Screen](screenshots/screenshot_4.png)
+
+## Third Screen
+![Third Screen](screenshots/screenshot_5.png)
+
+then on the second screen it will change
+![Third Screen](screenshots/screenshot_6.png)
